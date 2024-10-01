@@ -4,4 +4,10 @@ the line of code you just learned! Nope, not on my watch!
 Try to write that 1-liner of React code again! This time,
 see if you can figure out how to render an <ul> with 2+ <li>s inside*/
 
-ReactDOM.render(<h1>Hello, everyone!</h1>, document.getElementById("root"));
+ReactDOM.render(
+  <ul>
+    <li>list item 1</li>
+    <li>list item 2</li>
+  </ul>,
+  document.getElementById("root")
+);
